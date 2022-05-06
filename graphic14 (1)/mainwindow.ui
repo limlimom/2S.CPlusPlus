@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>817</width>
+    <height>664</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>16</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="3" column="1">
+     <widget class="QLineEdit" name="lineEdit_x_start"/>
+    </item>
+    <item row="11" column="0">
+     <widget class="QLabel" name="label_penWidth">
+      <property name="text">
+       <string>Толщина пера</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QComboBox" name="comboBox_type_out">
+      <item>
+       <property name="text">
+        <string>NoPen</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>SolidLine</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>DashLine</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>DotLine</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>DashDotLine</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>DashDotDotLine</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="QLabel" name="label_y_end">
+      <property name="text">
+       <string>Y конца</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QComboBox" name="comboBox_ements"/>
+    </item>
+    <item row="5" column="0">
+     <widget class="QLabel" name="label_x_end">
+      <property name="text">
+       <string>Х конца</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0">
+     <widget class="QLabel" name="label_radius_1">
+      <property name="text">
+       <string>Радиус 1</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="1">
+     <widget class="QLineEdit" name="lineEdit_radius_2"/>
+    </item>
+    <item row="10" column="1">
+     <widget class="QLineEdit" name="lineEdit_angle_2"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_type_out">
+      <property name="text">
+       <string>Тип обводки</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="0">
+     <widget class="QLabel" name="label_angle_2">
+      <property name="text">
+       <string>Угол 2</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="1">
+     <widget class="QLineEdit" name="lineEdit_angle_1"/>
+    </item>
+    <item row="11" column="1">
+     <widget class="QSpinBox" name="spinBox_penWidth">
+      <property name="minimum">
+       <number>1</number>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="QLineEdit" name="lineEdit_radius_1"/>
+    </item>
+    <item row="14" column="0" colspan="2">
+     <widget class="my_widget" name="widget_draw" native="true"/>
+    </item>
+    <item row="8" column="0">
+     <widget class="QLabel" name="label_radius_2">
+      <property name="text">
+       <string>Радиус 2</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="QLineEdit" name="lineEdit_y_end"/>
+    </item>
+    <item row="12" column="0">
+     <widget class="QLabel" name="label_pointsMassive">
+      <property name="text">
+       <string>Массив точек</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="QLabel" name="label_x_start">
+      <property name="text">
+       <string>Координата Х</string>
+      </property>
+     </widget>
+    </item>
+    <item row="13" column="1">
+     <widget class="QPushButton" name="pushButton_draw">
+      <property name="text">
+       <string>Нарисовать</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_y_start">
+      <property name="text">
+       <string>Координата Y</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="0">
+     <widget class="QLabel" name="label_angle_1">
+      <property name="text">
+       <string>Угол 1</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_elements">
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Элемент</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="QLineEdit" name="lineEdit_y_start"/>
+    </item>
+    <item row="5" column="1">
+     <widget class="QLineEdit" name="lineEdit_x_end"/>
+    </item>
+    <item row="12" column="1">
+     <widget class="QPushButton" name="pushButton_pointsMassive">
+      <property name="text">
+       <string>Ввести массив точек</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_brushStyle">
+      <property name="text">
+       <string>Тип заливки</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="QComboBox" name="comboBox_brushStyle">
+      <item>
+       <property name="text">
+        <string>NoBrush (Цветная заливка)</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>SolidPattern (Сплошная чёрная заливка)</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Dense1Pattern</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Dense2Pattern</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Dense3Pattern</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Dense4Pattern</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Dense5Pattern</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Dense6Pattern</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Dense7Pattern</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>HorPattern</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>VerPattern</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>CrossPattern</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>BDiagPattern</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>FDiagPattern</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>DiagCrossPattern</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>my_widget</class>
+   <extends>QWidget</extends>
+   <header location="global">my_widget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <tabstops>
+  <tabstop>comboBox_ements</tabstop>
+  <tabstop>comboBox_type_out</tabstop>
+  <tabstop>comboBox_brushStyle</tabstop>
+  <tabstop>lineEdit_x_start</tabstop>
+  <tabstop>lineEdit_y_start</tabstop>
+  <tabstop>lineEdit_x_end</tabstop>
+  <tabstop>lineEdit_y_end</tabstop>
+  <tabstop>lineEdit_radius_1</tabstop>
+  <tabstop>lineEdit_radius_2</tabstop>
+  <tabstop>lineEdit_angle_1</tabstop>
+  <tabstop>lineEdit_angle_2</tabstop>
+  <tabstop>spinBox_penWidth</tabstop>
+  <tabstop>pushButton_pointsMassive</tabstop>
+  <tabstop>pushButton_draw</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>
